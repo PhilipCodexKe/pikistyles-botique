@@ -181,20 +181,23 @@
     }
     
     .slider-3d {
-        width: 100px;
-        height: 150px;
-        left: calc(50% - 50px);
+        width: 140px;
+        height: 200px;
+        left: calc(50% - 70px);
+        top: 15%;
     }
     
     .slider-3d .slider-3d-item {
         transform: 
             rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
-            translateZ(min(180px, 25vw));
+            translateZ(min(350px, 40vw));
     }
     
     .slider-3d-content {
         width: min(1400px, 94vw);
-        padding: 0 3% 80px;
+        padding: 0 3% 0;
+        bottom: auto;
+        top: 55%;
     }
     
     .slider-3d-content h1 {
